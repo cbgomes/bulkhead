@@ -2,13 +2,13 @@
         "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 <web-app>
-    <display-name>Escarlate Bulkhead App</display-name>
+    <display-name>Merkandi Bulkhead App</display-name>
     <servlet>
         <servlet-name>REST Endpoints</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>jersey.config.server.provider.packages</param-name>
-            <param-value>br.com.santander.escarlate.rest</param-value>
+            <param-value>br.com.merkandi.rest</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -19,6 +19,6 @@
 
     <context-param>
         <param-name>LOG_PATH</param-name>
-        <param-value>/Users/cristianogomes/Documents/Santander/code/bulkhead/logs/api.log</param-value>
+        <param-value>/bulkhead/logs/api.log</param-value>
     </context-param>
 </web-app>

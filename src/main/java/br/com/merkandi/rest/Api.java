@@ -1,4 +1,4 @@
-package br.com.santander.escarlate.rest;
+package br.com.merkandi.rest;
 
 import io.github.resilience4j.bulkhead.Bulkhead;
 import io.github.resilience4j.bulkhead.BulkheadConfig;
